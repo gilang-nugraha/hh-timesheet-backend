@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "employee": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "required": true
+    },
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project",
+      "required": true
+    },
+    "startDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "endDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "setting": {
+      "type": "json"
+    },
+    "baseDuration": {
+      "type": "integer"
+    },
+    "overtimeDuration": {
+      "type": "integer"
+    },
+    "baseIncome": {
+      "type": "float"
+    },
+    "overtimeIncome": {
+      "type": "float"
+    },
+    "totalDuration": {
+      "type": "integer"
+    },
+    "totalIncome": {
+      "type": "float"
+    },
+    "employeeRate": {
+      "type": "float"
+    }
+  }
+}

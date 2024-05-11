@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "work_times",
+  "info": {
+    "singularName": "work-time",
+    "pluralName": "work-times",
+    "displayName": "Work Time",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startTime": {
+      "type": "time"
+    },
+    "endTime": {
+      "type": "time"
+    },
+    "overtimeRate": {
+      "type": "integer"
+    }
+  }
+}
