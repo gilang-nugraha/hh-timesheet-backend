@@ -13,7 +13,9 @@ For Fullstack Developer Take Home Test - Timesheet App
 ## Login account
 
 **Frontend Admin:** admin@demo.com / Password123
+
 **Frontend User:** testuser@gmail.com / Password123
+
 **Backend Admin:** gilang.nugraha.h@gmail.com / Password123
 
 ## Tech Stack
@@ -63,6 +65,13 @@ TRANSFER_TOKEN_SALT=Vwgjxo380qN1qHLyYW80Hg==
 DATABASE_CLIENT=sqlite
 DATABASE_FILENAME=.tmp/data.db
 JWT_SECRET=S0alp9Lmer251cR8EtHrHw==
+```
+
+You can check calculate timesheet logic on
+
+```bash
+logic dir : src/api/work/controllers/
+route dir : src/api/work/routes/
 ```
 
 ### Running the development server.
