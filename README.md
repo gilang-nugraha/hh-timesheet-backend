@@ -24,6 +24,8 @@ For Fullstack Developer Take Home Test - Timesheet App
 
 **Server:** Node, Strapi
 
+**Database:** sqlite
+
 **Deployment:** Vercel & AWS
 
 ## Feature
@@ -50,23 +52,18 @@ For Fullstack Developer Take Home Test - Timesheet App
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`HOST=0.0.0.0`
-
-`PORT=1337`
-
-`APP_KEYS=+ue4EoNKPeyx0aIzx3Yx/Q==,L10zeL0rQpC/52KBS8Ul5Q==,TiH2bbMrcrppylgPxY4Msw==HSvaffioeWHfY7POUMkzzQ==`
-
-`API_TOKEN_SALT=rDEHH19CC+pfZ6f5yV++vg==`
-
-`ADMIN_JWT_SECRET=aomgwGbMhaqIFByfHpcBXA==`
-
-`TRANSFER_TOKEN_SALT=Vwgjxo380qN1qHLyYW80Hg==`
-
+```bash
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=+ue4EoNKPeyx0aIzx3Yx/Q==,L10zeL0rQpC/52KBS8Ul5Q==,TiH2bbMrcrppylgPxY4Msw==,HSvaffioeWHfY7POUMkzzQ==
+API_TOKEN_SALT=rDEHH19CC+pfZ6f5yV++vg==
+ADMIN_JWT_SECRET=aomgwGbMhaqIFByfHpcBXA==
+TRANSFER_TOKEN_SALT=Vwgjxo380qN1qHLyYW80Hg==
 # Database
-
-`DATABASE_CLIENT=sqlite`
-`DATABASE_FILENAME=.tmp/data.db`
-`JWT_SECRET=S0alp9Lmer251cR8EtHrHw==`
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=.tmp/data.db
+JWT_SECRET=S0alp9Lmer251cR8EtHrHw==
+```
 
 ### Running the development server.
 
