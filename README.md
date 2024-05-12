@@ -54,9 +54,7 @@ To run this project, you will need to add the following environment variables to
 
 `PORT=1337`
 
-`APP_KEYS=+ue4EoNKPeyx0aIzx3Yx/Q==,L10zeL0rQpC/52KBS8Ul5Q==,TiH2bbMrcrppylgPxY4Msw==`
-
-`HSvaffioeWHfY7POUMkzzQ==`
+`APP_KEYS=+ue4EoNKPeyx0aIzx3Yx/Q==,L10zeL0rQpC/52KBS8Ul5Q==,TiH2bbMrcrppylgPxY4Msw==HSvaffioeWHfY7POUMkzzQ==`
 
 `API_TOKEN_SALT=rDEHH19CC+pfZ6f5yV++vg==`
 
